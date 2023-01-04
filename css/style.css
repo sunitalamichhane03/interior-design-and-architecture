@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #ffffff;
+    color: #22100d;
+}
+li{
+   
+    list-style: none;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+right: 0;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: transparent;
+padding: 23px 13%;
+transition: all .40s ease;
+}
+.logo img {
+  height: auto; 
+   width: 350px;
+   max-width: 100%;
+   margin-left: -80px; 
+   position: relative;
+}
+.navbar{
+  display: flex;  
+}
+.navbar a {
+   color: black; 
+   font-weight: 600;
+   font-size: 14px;
+   padding: 8px 18px;
+   transition: all .40s ease;
+   text-decoration: none;
+
+}
+.navbar a:hover{
+    color:rgba(0, 0, 0, 0.4);
+}
+.header-icon {
+    margin-right: -60px;
+}
+.header-icon i {
+    margin-left: 10px;
+    font-size: 22px;
+    color: black;
+  transition: all .40s ease;
+margin-right: 4px;
+ 
+}
+.header-icon i:hover{
+    transform: scale(1.2);
+    color:rgba(0, 0, 0, 0.4); 
+}
+#menu-icon{
+   font-size: 34px;
+   color: black;
+   z-index: 10001;
+   cursor: pointer;
+   display: none; 
+
+
+}
+
+.home .home-img{
+    height: 90vh;
+   width: 100%;
+
+   background-image: url("../img/background.jpg");
+   background-size: cover;
+   /* background-position: center; */
+   background-repeat: no-repeat; 
+   position: relative;
+   z-index: 20;
+   margin-top: 80px;
+}
+  
+.home-img img{
+   
+    height: 100%; 
+    width: 100%;
+    opacity: 1;
+    visibility: inherit;
+}
+.home-img h3, h4,p1,p2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center; 
+ opacity: 1;
+}
+.home-img h3{
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    font-size: 20PX;
+    font-family: sans-serif;
+}
+.home-img h4{
+   position: absolute;
+   font-size: 10px;
+   top: 85%;
+   left: 46%;
+   font-weight: 50;
+
+}
+.home-img p1{
+    position: absolute;
+    font-size: 25px;
+    top: 88%;
+    left: 38%;
+    font-family: apple Chancery, cursive;
+}
+.home-img p2{
+    position: absolute;
+    font-size: 25px;
+    top: 93%;
+    left: 36%;
+    font-family: apple Chancery, cursive;
+    font-weight: 50;
+}
+
+
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2.5rem;
+    background: white;
+    margin-top: 22px;
+   
+}
+section  h4{
+    font-family: "Playfair Display";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    vertical-align: baseline;
+   align-items: center;
+   display: flex;
+   
+}
+section p{
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    position: relative;
+   display: flex;
+  
+}
+
+section .news {
+    margin-top: 30px;
+  
+}
+section .news h4{
+    margin-left: 20px;
+}
+section .img-content .news-img img{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+  
+  
+  
